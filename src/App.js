@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Funcionarios from './components/Funcionarios';
+import "./App.css";
+import Header from "./components/Header";
+import Base from "./components/Base";
+import Routes from "./routes";
 
 function App() {
   return (
-    <div className="App">
-      <Funcionarios></Funcionarios>
-    </div>
+    <Base>
+      <Header />
+      <Routes />
+    </Base>
   );
 }
 
