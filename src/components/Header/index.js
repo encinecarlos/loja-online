@@ -7,6 +7,7 @@ const Header = () => (
     <Nav className="mr-auto">
       <Link to="/">Home</Link>
       <Link to="/produtos">Produtos</Link>
+      <Link to="/funcionarios">Funcionários</Link>
     </Nav>
   </Navbar>
 );

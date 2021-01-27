@@ -1,4 +1,5 @@
 import { Route, Switch } from "react-router-dom";
+import Funcionarios from "./components/Funcionarios";
 import Home from "./components/Home";
 import Produtos from "./components/Produtos";
 
@@ -9,6 +10,9 @@ const Routes = () => (
     </Route>
     <Route path="/produtos">
       <Produtos />
+    </Route>
+    <Route path="/funcionarios">
+      <Funcionarios/>
     </Route>
   </Switch>
 );
