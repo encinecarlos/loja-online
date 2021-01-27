@@ -1,3 +1,14 @@
-const Home = () => <h1>Aqui é a home do site</h1>;
+import Cart from '../../components/Cart'
+
+const Home = () => {
+  return (    
+    <Cart />
+  )
+}
+
+  
+
+
+
 
 export default Home;
