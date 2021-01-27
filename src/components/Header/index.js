@@ -5,8 +5,12 @@ const Header = () => (
   <Navbar bg="dark" variant="dark">
     <Navbar.Brand>GameStore</Navbar.Brand>
     <Nav className="mr-auto">
-      <Link to="/">Home</Link>
-      <Link to="/produtos">Produtos</Link>
+      <Nav.Link>
+        <Link to="/">Home</Link>
+      </Nav.Link>
+      <Nav.Link>
+        <Link to="/produtos">Produtos</Link>
+      </Nav.Link>
     </Nav>
   </Navbar>
 );
